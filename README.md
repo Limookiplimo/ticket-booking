@@ -1,4 +1,4 @@
-# Ticket_Booking
+# Ticket Booking
 
 This is an event driven scalable application that relies on Kafka to stream data. It demonstrates how data can be obtained from a frontend or any other source, published into data pipeline from which other modules/applications/services can read from simultaneously.
 
@@ -8,11 +8,11 @@ This is an event driven scalable application that relies on Kafka to stream data
 
 ## Kafka Topics
 
-### a. Ticket_details
+### a. Ticket details
 
 A category of messages that records published by App_backend(producer). It is from this topic that such consumers as transactions reads from.
 
-### b. Ticket_confirmed
+### b. Ticket confirmed
 
 This topic holds logs published to it by transaction service. It records ticket-confirmed details. Reports and notification service consume messages from this topic.
 
