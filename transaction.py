@@ -21,7 +21,7 @@ while True:
         consumed_message = json.loads(message.value.decode())
         print(consumed_message)
 
-        # After processing, write back to kafka the confirmed ticket deatils
+        # After processing, write back to kafka the confirmed ticket details
         passenger_id = consumed_message['passenger_id']
         fare = consumed_message['fare']
 
