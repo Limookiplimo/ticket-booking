@@ -1,6 +1,6 @@
 # Ticket Booking
 
-Event driven scalable application that relies on Kafka to stream data. It demonstrates how data can be obtained from a frontend or any other source, published into data pipeline from which other modules/applications/services can read from simultaneously.
+An event driven scalable application that relies on Kafka to stream data. It demonstrates how data can be obtained from a frontend or any other source, published into data pipeline from which other modules/applications/services can read from simultaneously.
 
 ## Stream Flow
 
